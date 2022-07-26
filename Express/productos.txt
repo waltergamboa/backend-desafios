@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Manzana",
+    "presentacion": "x kilo",
+    "cantidad": 1,
+    "precio": 12,
+    "categoria": "frutas",
+    "id": 1
+  },
+  {
+    "nombre": "Naranja",
+    "presentacion": "x kilo",
+    "cantidad": 1,
+    "precio": 22,
+    "categoria": "frutas",
+    "id": 2
+  },
+  {
+    "nombre": "Perejil",
+    "presentacion": "x kilo",
+    "cantidad": 1,
+    "precio": 32,
+    "categoria": "vegetales",
+    "id": 3
+  },
+  {
+    "nombre": "Radicheta",
+    "presentacion": "x kilo",
+    "cantidad": 1,
+    "precio": 42,
+    "categoria": "vegetales",
+    "id": 4
+  },
+  {
+    "nombre": "Champi",
+    "presentacion": "x paquete",
+    "cantidad": 1,
+    "precio": 52,
+    "categoria": "gourmet",
+    "id": 5
+  },
+  {
+    "nombre": "Eneldo",
+    "presentacion": "x paquete",
+    "cantidad": 1,
+    "precio": 62,
+    "categoria": "gourmet",
+    "id": 6
+  }
+]
