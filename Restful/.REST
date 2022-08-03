@@ -1,0 +1,26 @@
+# GET http://localhost:8080/api/productos HTTP/1.1
+
+# GET http://localhost:8080/api/productos/10 HTTP/1.1
+
+#  POST http://localhost:8080/api/productos HTTP/1.1
+#  content-type: application/json
+
+#  {
+#      "nombre": "uno"
+#  }
+
+#  DELETE http://localhost:8080/api/productos/1 HTTP/1.1
+ 
+
+#  PUT http://localhost:8080/api/productos/1 HTTP/1.1
+#    content-type: application/json
+
+# {
+#             "nombre": "Manzana",
+#             "presentacion": "kilo",
+#             "precio": 22,
+#             "stock": 142,
+#             "categoria": "frutas"
+#             }
+
+

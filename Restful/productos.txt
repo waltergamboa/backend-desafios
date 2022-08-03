@@ -1,0 +1,10 @@
+[
+  {
+    "nombre": "Manzana",
+    "presentacion": "kilo",
+    "stock": 12,
+    "precio": 44,
+    "categoria": "frutas",
+    "id": 1
+  }
+]
