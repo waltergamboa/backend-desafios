@@ -1,0 +1,35 @@
+{{> header }}
+    <h1>Productos</h1>
+    <div class="row">
+    {{#each productos}} 
+        <div class="col-3">
+            <div class="card text-black bg-light border-light w-120 m-3">
+              <div class="card-header">{{nombre}}</div>
+      
+              <div class="card-body" style="text-align: center;">
+                
+                <img src={{imagen}} style="width: 200px; height: 200px; object-fit: cover;"></img>
+                <p class="card-text">
+                  $ {{precio}} 
+                  
+                </p>
+              </div>
+      
+              <div class="card-footer" style="text-align: right">
+                <p>
+                </p>
+              </div>
+            </div>
+        </div>
+     {{/each}}
+</div>
+<div>
+    <a
+      href="http://localhost:8080/hbs"
+      class="btn btn-info m-4"
+      role="button"
+      style="display: block; margin: 0 auto; width: 70%"
+      >Agregar Producto</a
+    >
+  </div>
+{{> footer }}

@@ -1,0 +1,52 @@
+{{> header }}
+   <h1>Ingreso de Productos</h1>
+
+    <div style="width: 70%; margin: 0 auto">
+      <form method="post" action="http://localhost:8080/productos">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre del Producto</label>
+          <input
+            type="text"
+            class="form-control"
+            name="nombre"
+            placeholder="Nombre del Producto"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="precio" class="form-label">Precio</label>
+          <input
+            type="number"
+            class="form-control"
+            name="precio"
+            placeholder="Precio"
+            min="0"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="imagen" class="form-label">Imagen</label>
+          <input
+            type="text"
+            class="form-control"
+            name="imagen"
+            placeholder="Imagen del Producto"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Agregar</button>
+      </form>
+      <div>
+        <a
+          href="http://localhost:8080/hbs/productos"
+          class="btn btn-info m-4"
+          role="button"
+          style="display: block; margin: 0 auto"
+          >Productos</a
+        >
+      </div>
+    </div>
+{{> footer }}
