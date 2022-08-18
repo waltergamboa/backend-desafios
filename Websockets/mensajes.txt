@@ -1,0 +1,14 @@
+[
+  {
+    "mail": "chrome@gmail.com",
+    "fechahora": "18/08/2022 09:22:25",
+    "mensaje": "hola desde chrome",
+    "id": 1
+  },
+  {
+    "mail": "brave@gmail.com",
+    "fechahora": "18/08/2022 09:23:35",
+    "mensaje": "hola desde brave",
+    "id": 2
+  }
+]
