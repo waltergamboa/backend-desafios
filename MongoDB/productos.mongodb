@@ -1,0 +1,102 @@
+// use la base de datos
+use('ecommerce');
+
+// borro si existe la coleccion
+db.productos.drop()
+
+// creo la coleccion en forma explicita
+db.createCollection("productos")
+
+// inserto registros
+db.productos.insertMany([  {
+    nombre: "manzana",
+    precio: 112,
+    imagen: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+  },
+  {
+    nombre: "naranja",
+    precio: 255,
+    imagen: "https://media.istockphoto.com/photos/orange-picture-id185284489?k=20&m=185284489&s=612x612&w=0&h=LLY2os0YTG2uAzpBKpQZOAC4DGiXBt1jJrltErTJTKI=",
+  },
+  {
+    nombre: "pera",
+    precio: 588,
+    imagen: "https://st.depositphotos.com/1364311/1318/i/600/depositphotos_13181221-stock-photo-pear-fruit.jpg",
+  },
+  {
+    nombre: "zanahoria",
+    precio: 1208,
+    imagen: "https://media.istockphoto.com/photos/carrot-isolated-picture-id166106089?k=20&m=166106089&s=612x612&w=0&h=ULFBIu1BpZ3smEKzh--QEnnt_XT1AkZVwwZ8duHuzok=",
+  },
+  {
+    nombre: "choclo",
+    precio: 2541,
+    imagen: "https://static9.depositphotos.com/1642482/1149/i/450/depositphotos_11491811-stock-photo-an-ear-of-corn.jpg",
+  },
+  {
+    nombre: "sandia",
+    precio: 2700,
+    imagen: "https://media.istockphoto.com/photos/watermelon-picture-id478266756?k=20&m=478266756&s=612x612&w=0&h=HUiqKDUvx8W28vTTdbcKxTyieEAd3AYTE1_89xkREyY=",
+  },
+  {
+    nombre: "mandarina",
+    precio: 4280,
+    imagen: "https://thumbs.dreamstime.com/b/mandarina-23753206.jpg",
+  },
+  {
+    nombre: "papa",
+    precio: 3220,
+    imagen: "https://static7.depositphotos.com/1005708/789/i/600/depositphotos_7899312-stock-photo-raw-potatoes.jpg",
+  },
+  {
+    nombre: "tomate",
+    precio: 1254,
+    imagen: "https://static9.depositphotos.com/1628352/1107/i/450/depositphotos_11071361-stock-photo-tomato.jpg",
+  },
+  {
+    nombre: "remolacha",
+    precio: 4125,
+    imagen: "https://st.depositphotos.com/1006597/2031/i/950/depositphotos_20312017-stock-photo-beetroot.jpg",
+  } ])
+
+// listar documentos
+db.productos.find().pretty()
+
+// cantidad
+db.productos.estimatedDocumentCount();
+
+// insertar 1 producto
+db.productos.insertOne({nombre: "batata", precio: 3720, imagen: "https://media.istockphoto.com/photos/sweet-potato-picture-id638094208?b=1&k=20&m=638094208&s=612x612&w=0&h=kY1ao_TQaMFl29fG56cW5aX6Vx7fGtAFzxsKyB-Ebpc="})
+
+// productos menos de 1000 pesos
+db.productos.find({precio: {$lt: 1000}}).pretty()
+
+// productos entre 1000 y 3000
+db.productos.find({precio: {$gte: 1000, $lte: 3000}}).pretty()
+
+// productos mayor de 3000 pesos
+db.productos.find({precio: {$gt: 3000}}).pretty()
+
+// 3 producto mas barato
+db.productos.find({}).sort({precio:1}).limit(1).skip(2)
+
+// agregar campo stock a toda la coleccion
+db.productos.updateMany({}, {$set: {stock: 100}})
+
+// stock a 0 para precio mayor a 4000
+db.productos.updateMany({precio: {$gt: 4000}}, {$set: {stock: 0}})
+
+// borrar productos con precio menor a 1000
+db.productos.deleteMany({precio: {$lt: 1000}})
+
+
+
+
+
+
+
+
+
+
+
+

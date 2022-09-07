@@ -1,0 +1,67 @@
+use('ecommerce');
+
+// borro si existe la coleccion
+db.mensajes.drop()
+
+// creo la coleccion en forma explicita
+db.createCollection("mensajes")
+
+// inserto registros
+db.mensajes.insertMany([
+  {
+    mail: "chrome@gmail.com",
+    fechahora: "18/08/2022 09:22:25",
+    mensaje: "hola desde chrome"
+  },
+  {
+    mail: "brave@gmail.com",
+    fechahora: "18/08/2022 09:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "brave2@gmail.com",
+    fechahora: "19/08/2022 10:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "brave3@gmail.com",
+    fechahora: "19/08/2022 11:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "gmail4@gmail.com",
+    fechahora: "20/08/2022 07:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "gmail5@gmail.com",
+    fechahora: "20/08/2022 12:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "brave7@gmail.com",
+    fechahora: "21/08/2022 14:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "brave8@gmail.com",
+    fechahora: "22/08/2022 16:13:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "gmail10@gmail.com",
+    fechahora: "23/08/2022 08:23:35",
+    mensaje: "hola desde brave",
+  },
+  {
+    mail: "brave12@gmail.com",
+    fechahora: "23/08/2022 17:03:35",
+    mensaje: "hola desde brave",
+  }
+])
+
+// listar documentos
+db.mensajes.find().pretty()
+
+ cantidad
+db.mensajes.estimatedDocumentCount();
