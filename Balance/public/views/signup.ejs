@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="jumbotron">
+        <h1>Registro de Usuario</h1>
+        <br />
+        <form action="/signup" method="post">
+          <div class="form-group">
+            <input
+              type="text"
+              name="username"
+              placeholder="username"
+              required
+              class="form-control"
+            /><br />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              placeholder="password"
+              required
+              class="form-control"
+            /><br />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="email"
+              required
+              class="form-control"
+            /><br />
+          </div>
+          <button type="submit" class="btn btn-success">Registrar</button>
+        </form>
+        <br />
+        <a href="/login" class="btn btn-success">Ir al Login</a>
+      </div>
+    </div>
+  </body>
+</html>

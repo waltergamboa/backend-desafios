@@ -1,0 +1,24 @@
+// nativo
+nodemon server --PORT=4000 FORK 
+nodemon server --PORT=4000 CLUSTER
+
+// forever
+forever start server.js --PORT=4000
+    forever list
+    tasklist /fi "imagename eq node.exe"
+
+// pm2 - fork
+pm2 start server.js --name="Server1" --watch -- 8081
+
+// pm2 - cluster
+pm2 start server.js --name="Server2" --watch -i max -- 8082
+
+
+// nginx
+// levantar indidual
+pm2 start server.js --name="Server1" --watch -- 8080
+
+// levantar cluster nativo
+nodemon server --PORT=8081 CLUSTER
+
+
