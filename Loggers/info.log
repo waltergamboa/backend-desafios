@@ -1,0 +1,28 @@
+
+{"level":30,"time":1666828893667,"pid":15304,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666828959667,"pid":10704,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666829006026,"pid":20708,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666829042626,"pid":6232,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666829119620,"pid":33828,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666829581689,"pid":17192,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666829605024,"pid":28772,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+
+{"level":30,"time":1666829764221,"pid":29492,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666830133905,"pid":29676,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666830144773,"pid":29676,"hostname":"NB-004499","msg":"Ruta /info GET"}
+{"level":30,"time":1666874981908,"pid":19188,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666875332688,"pid":18772,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666875580759,"pid":34740,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666875614861,"pid":31648,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666875618131,"pid":31648,"hostname":"NB-004499","msg":"Ruta /info GET"}
+{"level":30,"time":1666875619412,"pid":31648,"hostname":"NB-004499","msg":"Ruta /infolog GET"}
+{"level":30,"time":1666876224937,"pid":5404,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666876226527,"pid":5404,"hostname":"NB-004499","msg":"Ruta /infolog GET"}
+{"level":30,"time":1666876355090,"pid":32592,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666876478445,"pid":33972,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666879488006,"pid":17324,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666879524640,"pid":31808,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666879623448,"pid":29180,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666879725751,"pid":10492,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666880828100,"pid":21540,"hostname":"NB-004499","msg":"Servidor express escuchando en el puerto 8080"}
+{"level":30,"time":1666880828414,"pid":21540,"hostname":"NB-004499","msg":"Ruta /info GET"}
