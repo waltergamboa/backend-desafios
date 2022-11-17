@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Manzana",
+    "precio": "12",
+    "imagen": "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+    "id": 1
+  },
+  {
+    "nombre": "Naranja",
+    "precio": "25",
+    "imagen": "https://media.istockphoto.com/photos/orange-picture-id185284489?k=20&m=185284489&s=612x612&w=0&h=LLY2os0YTG2uAzpBKpQZOAC4DGiXBt1jJrltErTJTKI=",
+    "id": 2
+  },
+  {
+    "nombre": "Pera",
+    "precio": "58",
+    "imagen": "https://st.depositphotos.com/1364311/1318/i/600/depositphotos_13181221-stock-photo-pear-fruit.jpg",
+    "id": 3
+  },
+  {
+    "nombre": "Zanahoria",
+    "precio": "120",
+    "imagen": "https://media.istockphoto.com/photos/carrot-isolated-picture-id166106089?k=20&m=166106089&s=612x612&w=0&h=ULFBIu1BpZ3smEKzh--QEnnt_XT1AkZVwwZ8duHuzok=",
+    "id": 4
+  },
+  {
+    "nombre": "Choclo",
+    "precio": "254",
+    "imagen": "https://static9.depositphotos.com/1642482/1149/i/450/depositphotos_11491811-stock-photo-an-ear-of-corn.jpg",
+    "id": 5
+  },
+  {
+    "nombre": "Anana",
+    "precio": "25",
+    "imagen": "https://media.istockphoto.com/photos/whole-with-slice-ripe-pineapple-isolated-on-white-background-picture-id1064819674?k=20&m=1064819674&s=612x612&w=0&h=WIYJDrmo9L6xh8-l0dCkmCCb9_rIBQhhp4m2MXK_XMc=",
+    "id": 6
+  },
+  {
+    "nombre": "uno",
+    "precio": "122",
+    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Ftomate&psig=AOvVaw0Hq5W5m5hqfIZqnrS4i6Tt&ust=1668639999330000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKD97cSmsfsCFQAAAAAdAAAAABAE",
+    "id": 7
+  },
+  {
+    "nombre": "Manzanasssssss",
+    "precio": "12111",
+    "imagen": "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+    "id": 8
+  }
+]

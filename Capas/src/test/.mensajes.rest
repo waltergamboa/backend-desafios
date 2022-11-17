@@ -1,0 +1,16 @@
+#GET http://localhost:8080/api/mensajes
+
+# POST http://localhost:8080/api/mensajes HTTP/1.1
+# content-type: application/json
+
+# {
+#     "author": {
+#         "id": "cincocapas@gmail.com",
+#         "nombre": "cincocapasnombre",
+#         "apellido": "cincocapasapellido",
+#         "edad": "5",
+#         "alias": "cincocapasalias",
+#         "avatar": "cincocapasavatar"
+#     },
+#     "text": "test cinco capas"
+# }
