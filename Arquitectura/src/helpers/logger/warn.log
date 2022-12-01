@@ -11,3 +11,7 @@
 {"level":40,"time":1668720676514,"pid":4740,"hostname":"NB-006041","msg":"Ruta /login GET no implementada"}
 {"level":40,"time":1668720687383,"pid":4740,"hostname":"NB-006041","msg":"Ruta /login GET no implementada"}
 {"level":40,"time":1668720812434,"pid":4740,"hostname":"NB-006041","msg":"Ruta /login GET no implementada"}
+{"level":40,"time":1669669415691,"pid":11592,"hostname":"NB-006041","msg":"Ruta /favicon.ico GET no implementada"}
+{"level":40,"time":1669669715758,"pid":19808,"hostname":"NB-006041","msg":"Ruta /favicon.ico GET no implementada"}
+{"level":40,"time":1669670223402,"pid":2184,"hostname":"NB-006041","msg":"Ruta /favicon.ico GET no implementada"}
+{"level":40,"time":1669919478468,"pid":18248,"hostname":"NB-006041","msg":"Ruta /api/usuarios/ GET no implementada"}
