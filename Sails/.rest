@@ -1,0 +1,37 @@
+GET http://localhost:1337/productos HTTP/1.1
+###
+POST http://localhost:1337/productos HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "morron rojo",
+    "precio": 100,
+    "categoria": "verduras"
+}
+###
+POST http://localhost:1337/productos HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "manzana",
+    "precio": 200,
+    "categoria": "frutas"
+}
+###
+POST http://localhost:1337/productos HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "hongos",
+    "precio": 300,
+    "categoria": "gourmet"
+}
+###
+PUT http://localhost:1337/productos/639e56365c87cf2e700de62c HTTP/1.1
+Content-Type: application/json
+
+{
+    "precio": 500
+}
+###
+DELETE http://localhost:1337/productos/639e56385c87cf2e700de62d HTTP/1.1
